@@ -1,0 +1,22 @@
+{
+  "settings": [
+    {
+      "type": "text",
+      "id": "theme_name",
+      "label": "Theme Name",
+      "default": "My Theme"
+    },
+    {
+      "type": "color",
+      "id": "primary_color",
+      "label": "Primary Color",
+      "default": "#333333"
+    },
+    {
+      "type": "font",
+      "id": "font_family",
+      "label": "Font Family",
+      "default": "Open Sans"
+    }
+  ]
+}
