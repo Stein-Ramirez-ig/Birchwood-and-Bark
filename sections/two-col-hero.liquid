@@ -1,0 +1,82 @@
+{{ 'two-col-hero-content.css' | asset_url | stylesheet_tag }}
+
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+
+<section class="two-col-hero-content">
+  <div class="two-col-hero-content-wrapper ">
+    <div class="two-col-hero-content-col two-col-hero-content-col-content">
+      <div class="two-col-hero-content-wrapper-inner">
+        <div class="two-col-hero-content-text">
+          {{ section.settings.text }}
+          <a> <b>Save Dog Beds from Landfills & Embrace the</br>Laundry Free-Revolution!</b> </a>
+        </div>
+
+          <div id="maitre-widget" style="box-shadow:0 !important"></div>
+
+        <!--
+        {% form 'contact' %}
+          <div class="input-wrapper">
+            <input type="text" name="name" placeholder="Name">
+          </div>
+          <div class="input-wrapper">
+            <input type="email" name="email" placeholder="Email">
+          </div>
+          <button class="button button--dark" type="submit">CREATE ACCOUNT</button>
+          <a href="/account/login" style="color:#966749">OR LOGIN HERE</a>
+        {% endform %}
+        -->
+      </div>
+    </div>
+    <div class="two-col-hero-content-col">
+      <div class="two-col-hero-content-media">
+        <img src="{{ section.settings.image | img_url: 'large' }}" alt="{{ product.featured_image.alt }}">
+      </div>
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Two Column Hero",
+  "class": "section",
+  "settings": [
+     {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Image"
+    },
+    {
+          "type": "richtext",
+          "id": "text",
+          "default": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+          "label": "Content"
+        },
+     {
+          "type": "text",
+          "id": "bottom_text",
+          "label": "Bottom Content"
+        },
+       {
+      "type": "header",
+      "content": "Section padding"
+    }
+  ],
+    "presets": [
+    {
+      "name": "Two Column Hero"
+    }
+  ]
+}
+{% endschema %}

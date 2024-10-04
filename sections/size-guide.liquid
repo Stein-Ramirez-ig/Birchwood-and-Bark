@@ -1,0 +1,260 @@
+<style>
+  .wf-section {
+       background: #F7F7F7;
+}
+
+  .wf-top {
+    text-align: center;
+       max-width: 1100px;
+    margin: 20px auto !important;
+}
+  .wf-top h2 {
+      font-family: FreightSans Pro Semibold, serfif;
+    color: #B38061;
+    font-size: 24px;
+    text-transform:uppercase;
+}
+  .wf-img img {
+    width: 200px;
+    object-fit: contain;
+    margin-top: 20px;
+}
+  .collection-list {
+    justify-content: space-around;
+    align-items: flex-end;
+    display: flex;
+}
+.wf-item {
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    text-align: center;
+  margin:15px;
+}
+  .wf-bottom h4 {
+     margin: 10px 0 0px;
+    font-size: 14px;
+    margin-top: 20px;
+}
+  .wf-size {
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    display: flex;
+}
+  a.wf-link h3 {
+    margin: 10px 0;
+}
+  .wf-size p,.wf-size h3{
+  margin: 0;
+}
+  .wf-size h3 {
+    font-size: 50px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+  .wf-item h4 {
+    font-size: 24px;
+    margin:0;
+    font-weight: 500;
+}
+  .wf-size p {
+    font-size: 14px;
+    color: #a0a0a0;
+}
+  a.wf-link h3 {
+    margin: 10px 0;
+    font-size: 16px;
+    font-weight: 500;
+}
+  .wf-bottom ul {
+    padding: 0;
+}
+
+  .wf-bottom ul li {
+    font-family: FreightSans Pro Medium, serif;
+    text-transform: uppercase;
+ list-style: none;
+    border-bottom: 1px solid #000000;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    font-size: 18px;
+    color:#000000;
+}
+
+  .wf-item .button {
+     width: 100%;
+    font-size: 18px;
+    height: auto;
+    min-height: auto;
+    padding: 17px 10px;
+}
+  @media(max-width:1500px){
+    .collection-list{
+      flex-wrap:wrap;
+    }
+  }
+  @media(max-width:1000px){
+    .wf-item {
+  margin:30px 15px;
+}
+  }
+</style>
+
+<div class="wf-section" style="padding-top:{{ section.settings.spacing-top }}px; padding-bottom:{{ section.settings.spacing-bottom }}px;">
+  <div class="page-width">
+  <div class="w-container">
+  <div class="wf-top">
+    {% if section.settings['main-title'] %}
+    <h2>{{ section.settings['main-title'] }}</h2>
+      {% endif %}
+      {% if section.settings['main-desc'] %}
+    <p>{{ section.settings['main-desc'] }}</p>
+        {% endif %}
+  </div>
+  <div class="collection-list">
+    {% for block in section.blocks %}
+      <div class="wf-item">
+         <div class="wf-size">
+          <h3>{{ block.settings['item-size'] }}</h3>
+        </div>
+        <h4>{{ block.settings['item-title'] }}</h4>
+        <div class="wf-img">
+          <img src="{{ block.settings.image | img_url: 'original' }}" alt="{{ block.settings.item-title }}">
+        </div>
+       
+        <div class="wf-bottom">
+          <ul>
+            <li>{{ block.settings['item-title-1'] }}</li>
+            <li>{{ block.settings['item-title-2'] }}</li>
+            <li>{{ block.settings['item-title-3'] }}</li>
+            <li>{{ block.settings['item-title-4'] }}</li>
+            <li>{{ block.settings['item-title-5'] }}</li>
+            <li>{{ block.settings['item-title-6'] }}</li>
+            <li>{{ block.settings['item-title-7'] }}</li>
+          </ul>
+        </div>
+         <a
+                  {% if block.settings.item-link == blank %}
+                    role="link" aria-disabled="true"
+                  {% else %}
+                    href="{{ block.settings.item-link }}"
+                  {% endif %}
+                  class="button button--primary"
+               style="margin-top: 25px;"
+                >
+                  LEARN MORE
+                </a>
+      </div>
+    {% endfor %}
+  </div>
+  </div>
+  </div>
+</div>
+
+
+{% schema %}
+{
+  "name": "Size Guide",
+  "settings": [
+       {
+      "type": "text",
+      "label": "Enter Heading",
+      "id": "main-title"
+    },
+      {
+      "type": "text",
+      "label": "Enter Description",
+      "id": "main-desc"
+    },
+        {
+  "type": "range",
+  "id": "spacing-top",
+  "min": 0,
+  "max": 100,
+  "step": 1,
+  "unit": "px",
+  "label": "Top Spacing",
+  "default": 20
+},
+     {
+  "type": "range",
+  "id": "spacing-bottom",
+  "min": 0,
+  "max": 100,
+  "step": 1,
+  "unit": "px",
+  "label": "Bottom Spacing",
+  "default": 20
+}
+  ],
+    "blocks":[
+       {
+      "type": "block",
+      "name": "Guide",
+      "settings": [
+         {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        },
+          {
+      "type": "text",
+      "label": "Title",
+      "id": "item-title"
+    },
+        {
+      "type": "text",
+      "label": "size",
+      "id": "item-size"
+    },
+          {
+      "type": "text",
+      "label": "Point 1",
+      "id": "item-title-1"
+    },
+            {
+      "type": "text",
+      "label": "Point 2",
+      "id": "item-title-2"
+    },
+            {
+      "type": "text",
+      "label": "Point 3",
+      "id": "item-title-3"
+    },
+            {
+      "type": "text",
+      "label": "Point 4",
+      "id": "item-title-4"
+    },
+            {
+      "type": "text",
+      "label": "Point 5",
+      "id": "item-title-5"
+    },
+                {
+      "type": "text",
+      "label": "Point 6",
+      "id": "item-title-6"
+    },
+                {
+      "type": "text",
+      "label": "Point 7",
+      "id": "item-title-7"
+    },
+              {
+      "type": "url",
+      "label": "Link",
+      "id": "item-link"
+    }
+      ]
+    }
+    ],
+  "presets": [
+    {
+      "name": "Size Guide"
+    }
+  ]
+}
+{% endschema %}

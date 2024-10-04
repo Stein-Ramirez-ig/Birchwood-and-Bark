@@ -1,0 +1,121 @@
+<style>
+  
+.accordion-container {
+    width: 100%;
+      margin-bottom: 100px;
+}
+
+.accordion-item {
+    background-color: #FFFFFF; /* White background for items */
+    border: 1px solid #E0E0E0; /* Light border */
+    border-radius: 8px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Softer shadow */
+}
+
+.accordion-header {
+    background-color: #b38061;
+    color: #FFFFFF; /* White text */
+    padding: 15px;
+    font-size: 18px;
+    border: none;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px 8px 0 0;
+    transition: background-color 0.3s ease;
+}
+
+.accordion-content {
+    background-color: #FAFAFA; /* Very light grey for content */
+    overflow: hidden;
+    padding: 0 15px;
+    max-height: 0;
+    transition: max-height 0.3s ease;
+}
+
+.accordion-content p {
+    margin: 15px 0;
+    line-height: 1.5;
+}
+
+.icon {
+    transition: transform 0.3s ease;
+}
+
+.active .icon {
+    transform: rotate(45deg);
+}
+
+</style>
+  <div class="page-width page-width--narrow">
+    <div class="header-custom">
+        <h1 class="" style="text-align:center;">Frequently Asked Questions</h1>
+    </div>
+  <div class="accordion-container">
+        <div class="accordion-item">
+            <button class="accordion-header">
+                FAQ Question 1 <span class="icon">+</span>
+            </button>
+            <div class="accordion-content">
+                <p>Answer to question 1...Answer to question 1...Answer to question 1...Answer to question 1...Answer to question 1...Answer to question 1...Answer to question 1...Answer to question 1...Answer to question 1...Answer to question 1...Answer to question 1...Answer to question 1...</p>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <button class="accordion-header">
+                FAQ Question 2 <span class="icon">+</span>
+            </button>
+            <div class="accordion-content">
+                <p>Answer to question 2...</p>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <button class="accordion-header">
+                FAQ Question 3 <span class="icon">+</span>
+            </button>
+            <div class="accordion-content">
+                <p>Answer to question 3...</p>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <script>
+      document.querySelectorAll('.accordion-header').forEach(button => {
+    button.addEventListener('click', () => {
+        const accordionContent = button.nextElementSibling;
+
+        button.classList.toggle('active');
+
+        if (button.classList.contains('active')) {
+            accordionContent.style.maxHeight = accordionContent.scrollHeight + 'px';
+        } else {
+            accordionContent.style.maxHeight = 0;
+        }
+
+        // Close other open accordion items
+        document.querySelectorAll('.accordion-header').forEach(otherButton => {
+            if (otherButton !== button) {
+                otherButton.classList.remove('active');
+                otherButton.nextElementSibling.style.maxHeight = 0;
+            }
+        });
+    });
+});
+
+    </script>
+{% schema %}
+  {
+    "name": "FAQs",
+    "settings": [],
+    "presets":[
+      {
+        "name": "FAQs"
+      }
+    ]
+  }
+{% endschema %}

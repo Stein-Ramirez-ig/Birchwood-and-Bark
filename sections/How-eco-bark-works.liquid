@@ -1,0 +1,145 @@
+{% schema %}
+{
+  "name": "Header with Image",
+  "settings": [
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading",
+      "default": "How the Eco-Bark Movement works?"
+    },
+    {
+      "type": "image_picker",
+      "id": "header_image",
+      "label": "Header Image"
+    },
+    {
+      "type": "select",
+      "id": "heading_size",
+      "label": "Heading Size",
+      "options": [
+        {
+          "value": "h1",
+          "label": "Large"
+        },
+        {
+          "value": "h2",
+          "label": "Medium"
+        },
+        {
+          "value": "h3",
+          "label": "Small"
+        }
+      ],
+      "default": "h1"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 10,
+      "unit": "px",
+      "label": "Top Spacing",
+      "default": 40
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 10,
+      "unit": "px",
+      "label": "Bottom Spacing",
+      "default": 40
+    }
+  ],
+  "presets": [
+    {
+      "name": "Header with Image",
+      "settings": {}
+    }
+  ]
+}
+{% endschema %}
+
+<div class="header-image-section" 
+     style="padding-top: {{ section.settings.padding_top }}px; 
+            padding-bottom: {{ section.settings.padding_bottom }}px;">
+  
+  {% if section.settings.heading != blank %}
+    <div class="section-heading">
+      {% case section.settings.heading_size %}
+        {% when 'h1' %}
+          <h1>{{ section.settings.heading }}</h1>
+        {% when 'h2' %}
+          <h2>{{ section.settings.heading }}</h2>
+        {% when 'h3' %}
+          <h3>{{ section.settings.heading }}</h3>
+      {% endcase %}
+    </div>
+  {% endif %}
+
+  {% if section.settings.header_image %}
+    <div class="image-container">
+      {{ section.settings.header_image | image_url: width: 2000 | image_tag: 
+         loading: 'lazy', 
+         alt: section.settings.heading,
+         class: 'full-width-image' }}
+    </div>
+  {% endif %}
+</div>
+
+<style>
+.header-image-section {
+  width: 100%;
+  max-width: 100%;
+}
+
+.section-heading {
+  text-align: center;
+  margin-bottom: 30px;
+  padding: 0 20px;
+}
+
+.section-heading h1 {
+  font-size: 2.5em;
+  margin: 0;
+}
+
+.section-heading h2 {
+  font-size: 2em;
+  margin: 0;
+}
+
+.section-heading h3 {
+  font-size: 1.5em;
+  margin: 0;
+}
+
+.image-container {
+  width: 100%;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.full-width-image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+@media screen and (max-width: 768px) {
+  .section-heading h1 {
+    font-size: 2em;
+  }
+  
+  .section-heading h2 {
+    font-size: 1.75em;
+  }
+  
+  .section-heading h3 {
+    font-size: 1.25em;
+  }
+}
+</style>

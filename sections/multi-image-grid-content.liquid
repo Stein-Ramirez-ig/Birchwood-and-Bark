@@ -1,0 +1,96 @@
+{{ 'multi-image-grid-content.css' | asset_url | stylesheet_tag }}
+
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+
+<section class="multi-image-grid-content">
+  <div class="multi-image-grid-content-wrapper page-width section-{{ section.id }}-padding">
+      <div class="multi-image-grid-content-col">
+          <div class="multi-image-grid-content-wrapper-inner">
+            <div class="multi-image-grid-content-text">
+              {{ section.settings.text }}
+            </div>
+             <div class="multi-image-grid-content-text bottom-text">
+               <p>{{ section.settings.bottom_text }}</p>
+            </div>
+          </div>
+      </div>
+      <div class="multi-image-grid-content-col">
+         <div class="multi-image-grid-content-media">
+              <img src="{{ section.settings.image_large | img_url: 'large' }}" alt="{{ product.featured_image.alt }}" />
+        </div>
+      </div>
+  </div>
+</section>
+
+{% schema %}
+
+{
+  "name": "Multi-image Grid Content",
+  "class": "section",
+  "settings": [
+     {
+      "type": "image_picker",
+      "id": "image_large",
+      "label": "Image large"
+    },
+    {
+      "type": "image_picker",
+      "id": "image_small",
+      "label": "Image Small"
+    },
+    {
+          "type": "richtext",
+          "id": "text",
+          "default": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+          "label": "Content"
+        },
+     {
+          "type": "text",
+          "id": "bottom_text",
+          "label": "Bottom Content"
+        },
+       {
+      "type": "header",
+      "content": "Section padding"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "Top padding",
+      "default": 36
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "Bottom padding",
+      "default": 36
+    }
+  ],
+    "presets": [
+    {
+      "name": "Multi-image Grid Content"
+    }
+  ]
+}
+  
+{% endschema %}
