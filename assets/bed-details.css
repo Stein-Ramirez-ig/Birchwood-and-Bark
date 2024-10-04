@@ -1,0 +1,209 @@
+
+.bed-deets {
+  background-image: url('https://cdn.shopify.com/s/files/1/0615/2824/4375/files/BB_MatressDiagramBackground_png.jpg?v=1682453142');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  padding: 100px 10px;
+}
+
+
+.bed-deets .container .deets-split {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.bed-deets .container .deets-split .split-left {
+  flex: 0 0 21%;
+  justify-content: flex-start;
+}
+
+.bed-deets .container .deets-split .split-left img {
+    max-width: 100px;
+    height: 100px;
+    object-fit: contain;
+    margin-bottom: 5px;
+}
+
+.bed-deets .container .deets-split .split-left h3 {
+  color: black;
+     font-size: 28px;
+  text-align: center;
+  margin: 0;
+  position: relative;
+}
+
+.bed-deets .container .deets-split .split-left p {
+font-size: 18px;
+    text-align: center;
+    margin:0;
+    color: black;
+    line-height: normal;
+}
+
+.split-center {
+  flex: 0 0 58%;
+  display: flex;
+  align-items: center;
+}
+
+.bed-deets .container .deets-split .split-right {
+  flex: 0 0 21%;
+  justify-content: flex-end;
+}
+
+.bed-deets .container .deets-split .split-right img {
+    max-width: 100px;
+    height: 100px;
+    object-fit: contain;
+    margin-bottom: 5px;
+}
+
+.bed-deets .container .deets-split .split-right h3 {
+  color: white;
+  font-size: 28px;
+  text-align: center;
+  margin: 0;
+  position: relative;
+}
+
+.bed-deets .container .deets-split .split-right p {
+  font-size: 18px;
+  text-align: center;
+  margin: 0;
+  color: #FFF;
+  line-height: normal;
+}
+
+.bed-deets .content-contain-right,.bed-deets .content-contain-left {
+  text-align: center;
+  margin-bottom: 80px;
+  justify-content: flex-end;
+  display: flex;
+}
+.bed-deets .content-contain-right:last-child,.bed-deets .content-contain-left:last-child {
+    margin: 0;
+}
+
+.bed-deets .content-align {
+    text-align: center;
+    position: relative;
+}
+
+.content-contain-right .content-align .line-details-top {
+    border-bottom: 2px solid #FFF;
+    width: 68%;
+    position: absolute;
+    top: 25px;
+    left: -60%;
+    display: inline-block;
+}
+
+.content-contain-left .content-align .line-details {
+    border-bottom: 2px solid #242323;
+    width: 59%;
+    position: absolute;
+    margin-top: 25px;
+    margin-left: 10px;
+    display: inline-block;
+}
+
+.content-contain-right .content-align .line-details {
+    border-bottom: 2px solid #FFF;
+    width: 42%;
+    position: absolute;
+    top: -12px;
+    left: -26%;
+    display: inline-block;
+}
+
+.bed-deets-title {
+  text-transform: uppercase;
+  color: #bb8360;
+  font-size: 24px;
+  text-align: center;
+  font-weight: 900;
+  margin-left: 5px;
+      font-family: FreightSans Pro Semibold, serfif;
+}
+.split-center img{
+  width:100%;
+}
+
+@media (max-width: 1200px) {
+ .bed-deets {
+    padding: 30px 0px;
+}
+  .bed-deets .container .deets-split .split-left img {
+    max-width: 75px;
+  }
+  .bed-deets .container .deets-split .split-right img {
+    max-width: 75px;
+  }
+}
+
+@media (max-width: 991px) {
+  
+  .bed-deets .container {
+    max-width: 1200px;
+    margin: auto;
+  }
+  .bed-deets .page-width {
+    padding: 0;
+}
+  .bed-deets .container .deets-split .split-left {
+    flex: 0 0 100%;
+    justify-content: center;
+    display: flex;
+  }
+  
+  .split-center {
+    flex: 0 0 100%;
+  }
+  
+  .bed-deets .container .deets-split .split-right {
+    flex: 0 0 100%;
+    justify-content: center;
+    display: flex;
+  }
+  .bed-deets .content-contain-left,.bed-deets .content-contain-right {
+    padding: 0 15px;
+    width: 50%;
+}
+  .bed-deets .container .deets-split .split-left p {
+    color: #FFF;
+  }
+  .bed-deets .container .deets-split .split-right p {
+    color: #000;
+  }
+  .bed-deets h3 {
+    font-size: 20px!important;
+  }
+
+  .mobile-white {
+    color: #FFF!important;
+  }
+  .mobile-black {
+    color: #000!important;
+  }
+  .line-details {
+    display: none!important;
+  }
+  .content-contain-left:nth-child(1) h3{
+        color: #000!important;
+  }
+  .content-contain-left:nth-child(2) h3{
+        color: #fff!important;
+  }
+  .content-contain-right:nth-child(1) h3{
+        color: #000!important;
+  }
+  .content-contain-right:nth-child(2) h3{
+        color: #fff!important; 
+  }
+
+  .bed-deets .container .deets-split .split-left p{
+        font-size: 16px;
+  }
+}
