@@ -1,1 +1,35 @@
-{"sections":{"main":{"type":"main-page","disabled":true,"settings":{"padding_top":36,"padding_bottom":28}},"1a111d46-7db1-4484-a998-3c84de5f9ac8":{"type":"image-banner","blocks":{"template--16351025332375__1a111d46-7db1-4484-a998-3c84de5f9ac8-text-1":{"type":"text","settings":{"text":"Our Story","text_style":"body"}},"template--16351025332375__1a111d46-7db1-4484-a998-3c84de5f9ac8-heading-1":{"type":"heading","settings":{"heading":"Redefining pet care sustainability","heading_size":"h1"}}},"block_order":["template--16351025332375__1a111d46-7db1-4484-a998-3c84de5f9ac8-text-1","template--16351025332375__1a111d46-7db1-4484-a998-3c84de5f9ac8-heading-1"],"custom_css":[".banner__content.banner__content--middle-center {align-items: flex-end;}"],"settings":{"image":"shopify:\/\/shop_images\/birchwood_hero_ffe6629a-0485-47ba-ab7e-747673c38994.jpg","image_overlay_opacity":0,"image_height":"adapt","desktop_content_position":"middle-center","show_text_box":true,"desktop_content_alignment":"center","color_scheme":"inverse","image_behavior":"none","mobile_content_alignment":"center","stack_images_on_mobile":true,"show_text_below":true}},"d9f9a0cd-4d8f-4493-88ce-498aac42903a":{"type":"multi-image-grid-content","custom_css":["section.multi-image-grid-content {padding: 50px 0 140px;}","@media(max-width:768px){section.multi-image-grid-content {padding: 50px 0 140px;}}"],"settings":{"image_large":"shopify:\/\/shop_images\/our_story.png","text":"<h4>We’re redefining pet care sustainability with the world’s first hypoallergenic, laundry-free dog bed, ensuring comfort, eco-friendliness, and safety for both pets and family. <\/h4><p>Like countless stories of innovation, my journey began with a challenge that demanded a solution. It was a common scene in my home - my children, in their pure love for our dogs, would often join them on the dog bed to snuggle.<\/p>","bottom_text":"Yet, what struck me the most was not just the hidden contaminants, but the larger implications of our consumption habits. The notion of constantly washing these dog beds or, worse, discarding them repeatedly, was a silent contributor to our planet's distress. I couldn't sit idly by, knowing that every discarded bed meant more strain on our already burdened ecosystem.","padding_top":40,"padding_bottom":80}},"0202154a-df9e-423b-aabc-7cc942390890":{"type":"image-banner","blocks":{"template--16351025332375__0202154a-df9e-423b-aabc-7cc942390890-heading-1":{"type":"heading","settings":{"heading":"This commitment to eco-friendliness guides all my decisions. Together, through mindful choices, we can forge a greener future and make pet ownership just that much easier.","heading_size":"h1"}}},"block_order":["template--16351025332375__0202154a-df9e-423b-aabc-7cc942390890-heading-1"],"custom_css":[".banner__box {width: 100%;}",".banner__heading {font-size: 58px; line-height: normal;}","@media (max-width: 749px) {.banner__heading {font-size: 32px; }}",".banner__content {position: relative;}"],"settings":{"image":"shopify:\/\/shop_images\/Group_1.jpg","image_overlay_opacity":0,"image_height":"adapt","desktop_content_position":"middle-center","show_text_box":true,"desktop_content_alignment":"center","color_scheme":"inverse","image_behavior":"none","mobile_content_alignment":"center","stack_images_on_mobile":true,"show_text_below":true}},"3c0682bc-96a2-4b97-a204-8bbc512fa00e":{"type":"collection-list","blocks":{"template--16351025332375__3c0682bc-96a2-4b97-a204-8bbc512fa00e-featured_collection-1":{"type":"featured_collection","settings":{"collection":"shop-beds"}},"template--16351025332375__3c0682bc-96a2-4b97-a204-8bbc512fa00e-featured_collection-2":{"type":"featured_collection","settings":{"collection":"shop-ecocovers"}}},"block_order":["template--16351025332375__3c0682bc-96a2-4b97-a204-8bbc512fa00e-featured_collection-1","template--16351025332375__3c0682bc-96a2-4b97-a204-8bbc512fa00e-featured_collection-2"],"settings":{"title":"","heading_size":"h1","image_ratio":"adapt","columns_desktop":2,"color_scheme":"","show_view_all":false,"columns_mobile":"1","swipe_on_mobile":false,"padding_top":72,"padding_bottom":72}}},"order":["main","1a111d46-7db1-4484-a998-3c84de5f9ac8","d9f9a0cd-4d8f-4493-88ce-498aac42903a","0202154a-df9e-423b-aabc-7cc942390890","3c0682bc-96a2-4b97-a204-8bbc512fa00e"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 28
+      }
+    },
+    "two_images_section_Tw8cfi": {
+      "type": "two-images-section",
+      "settings": {
+        "heading": "",
+        "image1": "shopify://shop_images/birchwood-bark-favicon.png",
+        "heading2": "",
+        "paragraph": "",
+        "classes": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "two_images_section_Tw8cfi"
+  ]
+}
