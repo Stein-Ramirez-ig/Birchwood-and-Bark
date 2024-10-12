@@ -6,8 +6,8 @@
     <img src="{{ section.settings.image1 | image_url:width:settings.image_width | image_tag: loading:'lazy' }}" alt="Image 1">
     <img src="{{ section.settings.image2 | image_url:width:settings.image_width | image_tag: loading:'lazy' }}" alt="Image 2">
   </div>
-  <h2>{{ settings.heading2 }}</h2>
-  <p>{{ settings.paragraph }}</p>
+  <h2>{{ section.settings.heading2 }}</h2>
+  <p>{{ section.settings.paragraph }}</p>
 </div>
 
 {% schema %}
