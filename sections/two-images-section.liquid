@@ -1,3 +1,15 @@
+
+
+<section class="two-images-section {{ settings.classes }}">
+  <h2>{{ settings.heading }}</h2>
+  <div class="image-row">
+    <img src="{{ settings.image1 | img_url:'medium' }}" alt="Image 1">
+    <img src="{{ settings.image2 | img_url:'medium' }}" alt="Image 2">
+  </div>
+  <h2>{{ settings.heading2 }}</h2>
+  <p>{{ settings.paragraph }}</p>
+</section>
+
 {% schema %}
   {
   "name": "two-images-section",
@@ -32,6 +44,11 @@
       "type": "text",
       "id": "classes",
       "label": "Additional classes (optional)"
+    }
+  ],"presets": [
+    {
+      "name": "Section with heading two images and rich text",
+      "settings": {}
     }
   ]
 }
