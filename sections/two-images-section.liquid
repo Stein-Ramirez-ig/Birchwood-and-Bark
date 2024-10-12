@@ -3,8 +3,8 @@
 <div class="two-images-section {{ settings.classes }}">
   <h2>{{ settings.heading }}</h2>
   <div class="image-row">
-    <img src="{{ section.settings.image1 | image_url:width:500 | image_tag: loading:'lazy' }}" alt="Image 1">
-    <img src="{{ section.settings.image2 | image_url:widht:500 | image_tag: loading:'lazy' }} " alt="Image 2">
+    <img src="{{ section.settings.image1 | image_url:width:settings.image_width | image_tag: loading:'lazy' }}" alt="Image 1">
+    <img src="{{ section.settings.image2 | image_url:width:settings.image_width | image_tag: loading:'lazy' }}" alt="Image 2">
   </div>
   <h2>{{ settings.heading2 }}</h2>
   <p>{{ settings.paragraph }}</p>
@@ -44,6 +44,11 @@
       "type": "text",
       "id": "classes",
       "label": "Additional classes (optional)"
+    },
+    {
+      "type": "number",
+      "id": "image_width",
+      "label": "Image width (in pixels)"
     }
   ],"presets": [
     {
