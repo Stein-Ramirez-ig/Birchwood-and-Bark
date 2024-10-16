@@ -6,6 +6,9 @@
   </div>
   <h2>{{ section.settings.header2 }}</h2>
   <p>{{ section.settings.paragraph }}</p>
+  {% if section.settings.show_button %}
+    <button>{{ section.settings.cta_button }}</button>
+  {% endif %}
   
 </section>
 
