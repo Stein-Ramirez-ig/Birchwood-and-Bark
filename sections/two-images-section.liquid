@@ -1,4 +1,4 @@
-<div class="custom-shopify-section">
+<section class="two-images-section">
   <h1>{{ section.settings.header.content }}</h1>
   <div class="images">
     <img src="{{ section.settings.image_one | image_url: '300x' }}" alt="{{ section.settings.image_one.label }}">
@@ -9,7 +9,7 @@
   {% if section.settings.show_button %}
     <button>{{ section.settings.cta_button }}</button>
   {% endif %}
-</div>
+</section>
 
 {% schema %}
 {
