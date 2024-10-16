@@ -1,8 +1,8 @@
 <section class="two-images-section">
   <h1>{{ section.settings.header }}</h1>
   <div class="images">
-    {{ section.settings.image_one | image_url: width:300 | image_tag: alt:section.settings.image_one.label}}
-    <img src="{{ section.settings.image_two | image_url:width:300 }}" alt="{{ section.settings.image_two.label }}">
+    {{ section.settings.image_one | image_url: width:100 | image_tag: alt:section.settings.image_one.label}}
+    {{ section.settings.image_one | image_url: width:100 | image_tag: alt:section.settings.image_one.label}}
   </div>
   <h2>{{ section.settings.header2 }}</h2>
   <p>{{ section.settings.paragraph }}</p>
