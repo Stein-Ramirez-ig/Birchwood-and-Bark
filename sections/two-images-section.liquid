@@ -1,7 +1,17 @@
 {{ 'base.css' | asset_url | stylesheet_tag }}
 
 {% style %}
-  
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
   .wrapper{
     display:flex;
     flex-direction:column;
@@ -18,7 +28,8 @@
   <h1>{{ section.settings.header }}</h1>
   <div class="images">
     {{ section.settings.image_one | image_url: width:100 | image_tag: alt:section.settings.image_one.label}}
-    {{ section.settings.image_one | image_url: width:100 | image_tag: alt:section.settings.image_one.label}}
+    
+    {{ section.settings.image_two | image_url: width:100 | image_tag: alt:section.settings.image_two.label}}
   </div>
   <h2>{{ section.settings.header2 }}</h2>
   <p>{{ section.settings.paragraph }}</p>
