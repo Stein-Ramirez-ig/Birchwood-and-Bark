@@ -25,7 +25,8 @@
         "image_two": "shopify://shop_images/Patent-Pending-BnB.png",
         "header2": "<p>lll</p>",
         "paragraph": "Your llparagraph text here.",
-        "show_button": true
+        "show_button": false,
+        "cta_button": "Click Me"
       }
     }
   },
