@@ -1,5 +1,5 @@
 <section class="two-images-section">
-  <h1>{{ section.settings.header.content }}</h1>
+  <h1>{{ section.settings.header }}</h1>
   <div class="images">
     <img src="{{ section.settings.image_one | image_url: '300x' }}" alt="{{ section.settings.image_one.label }}">
     <img src="{{ section.settings.image_two | image_url: '300x' }}" alt="{{ section.settings.image_two.label }}">
@@ -16,7 +16,7 @@
   "settings": [
     {
       "type": "richtext",
-      "id":"Text",
+      "id":"header",
       "label": "Your Heading Here"
     },
     {
@@ -31,7 +31,7 @@
     },
     {
       "type": "richtext",
-      "id":"text",
+      "id":"header2",
       "label": "Another Heading Here"
     },
     {
