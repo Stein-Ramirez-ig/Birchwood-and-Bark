@@ -27,9 +27,13 @@
   <div class="section-{{ section.id }}-padding wrapper">
   <h1>{{ section.settings.header }}</h1>
   <div class="images">
+    {% if section.settings.image_one %}
     {{ section.settings.image_one | image_url: width:100 | image_tag: alt:section.settings.image_one.label}}
-    
+    {% endif %}
+
+    {% if section.settings.image_two %}
     {{ section.settings.image_two | image_url: width:100 | image_tag: alt:section.settings.image_two.label}}
+    {% endif %}
   </div>
   <h2>{{ section.settings.header2 }}</h2>
   <p>{{ section.settings.paragraph }}</p>
