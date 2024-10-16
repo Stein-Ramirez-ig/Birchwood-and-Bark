@@ -2,6 +2,7 @@
 
 
 <section class="two-images-section">
+  <div class="section-{{ section.id }}-padding">
   <h1>{{ section.settings.header }}</h1>
   <div class="images">
     {{ section.settings.image_one | image_url: width:100 | image_tag: alt:section.settings.image_one.label}}
@@ -12,7 +13,8 @@
   {% if section.settings.show_button %}
     <button>{{ section.settings.cta_button }}</button>
   {% endif %}
-  
+
+  </div>
 </section>
 
 {% schema %}
