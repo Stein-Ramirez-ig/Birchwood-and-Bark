@@ -1,10 +1,10 @@
 <section class="two-images-section">
   <h1>{{ section.settings.header }}</h1>
   <div class="images">
-    <img src="{{ section.settings.image_one | image_url: '300x' }}" alt="{{ section.settings.image_one.label }}">
-    <img src="{{ section.settings.image_two | image_url: '300x' }}" alt="{{ section.settings.image_two.label }}">
+    <img src="{{ section.settings.image_one | image_url: 'large' }}" alt="{{ section.settings.image_one.label }}">
+    <img src="{{ section.settings.image_two | image_url: 'large' }}" alt="{{ section.settings.image_two.label }}">
   </div>
-  <h2>{{ section.settings.header.content }}</h2>
+  <h2>{{ section.settings.header2 }}</h2>
   <p>{{ section.settings.paragraph }}</p>
   
 </section>
