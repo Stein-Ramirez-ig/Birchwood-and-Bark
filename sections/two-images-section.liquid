@@ -6,9 +6,7 @@
   </div>
   <h2>{{ section.settings.header.content }}</h2>
   <p>{{ section.settings.paragraph }}</p>
-  {% if section.settings.show_button %}
-    <button>{{ section.settings.cta_button }}</button>
-  {% endif %}
+  
 </section>
 
 {% schema %}
@@ -17,8 +15,9 @@
   "class":"section",
   "settings": [
     {
-      "type": "header",
-      "content": "Your Heading Here"
+      "type": "richtext",
+      "id":"Text",
+      "label": "Your Heading Here"
     },
     {
       "type": "image_picker",
@@ -31,8 +30,9 @@
       "label": "Second Image"
     },
     {
-      "type": "header",
-      "content": "Another Heading Here"
+      "type": "richtext",
+      "id":"text",
+      "label": "Another Heading Here"
     },
     {
       "type": "text",
@@ -49,7 +49,7 @@
   ],
     "presets": [
     {
-      "name": "Two Col Image Content"
+      "name": "Two images section"
     }
   ]
 }
