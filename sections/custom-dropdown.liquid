@@ -20,11 +20,11 @@
 {% endstyle %}
 
 <section>
-<div class="tab-header-caller" style="min-height: 250px; background-color: {{ settings.header_bg_color }}; color: {{ settings.text_color }};">
+<div class="tab-header-caller" style="min-height: 250px; background-color: {{ section.settings.header_bg_color }}; color: {{ section.settings.text_color }};">
     <h1>{{ section.settings.header }}</h1>
 </div>
-<div class="caller-drop-down" style="text-align: center; padding-left: 25%; padding-right: 25%; background-color: {{ settings.content_bg_color }};">
-    <p style="color: {{ settings.text_color }};">{{ settings.dropdown_content }}</p>
+<div class="caller-drop-down" style="text-align: center; padding-left: 25%; padding-right: 25%; background-color: {{ section.settings.content_bg_color }};">
+    <p style="color: {{ section.settings.text_color }};">{{ section.settings.dropdown_content }}</p>
 </div>
 </section>
 {% schema %}
