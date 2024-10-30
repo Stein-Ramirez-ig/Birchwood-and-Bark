@@ -9,7 +9,6 @@
 .caller-drop-down {
     padding-left: 25%;
     padding-right: 25%;
-    text-align: center;
 }
 
 .caller-drop-down p {
@@ -21,9 +20,9 @@
 
 <section>
 <div class="tab-header-caller" style="min-height: 250px; background-color: {{ section.settings.header_bg_color }}; color: {{ section.settings.text_color }}; cursor: pointer;" onclick="toggleDropdown(this)">
-    <h2 style="font-family: {{ section.settings.text_font.family }}">{{ section.settings.header }}</h2>
+    <h2 style="font-family: {{ section.settings.text_font.family }}; text-align: {{ section.settings.header_text_alignment }};">{{ section.settings.header }}</h2>
 </div>
-<div class="caller-drop-down" style="display: none; text-align: center; padding-left: 25%; padding-right: 25%; background-color: {{ settings.content_bg_color }};">
+<div class="caller-drop-down" style="display: none; text-align: {{ section.settings.dropdown_text_alignment }}; padding-left: 25%; padding-right: 25%; background-color: {{ section.settings.content_bg_color }};">
     <p style="color: {{ section.settings.text_color }};">{{ section.settings.dropdown_content }}</p>
 </div>
 
@@ -38,10 +37,11 @@ function toggleDropdown(element) {
 }
 </script>
 </section>
+
 {% schema %}
 {
   "name": "Custom Dropdown",
-  "class":"section",
+  "class": "section",
   "settings": [
     {
       "type": "richtext",
@@ -70,11 +70,33 @@ function toggleDropdown(element) {
       "id": "text_color",
       "label": "Text Color",
       "default": "#333333"
+    },
+    {
+      "type": "select",
+      "id": "header_text_alignment",
+      "label": "Header Text Alignment",
+      "options": [
+        { "value": "left", "label": "Left" },
+        { "value": "center", "label": "Center" },
+        { "value": "right", "label": "Right" }
+      ],
+      "default": "center"
+    },
+    {
+      "type": "select",
+      "id": "dropdown_text_alignment",
+      "label": "Dropdown Text Alignment",
+      "options": [
+        { "value": "left", "label": "Left" },
+        { "value": "center", "label": "Center" },
+        { "value": "right", "label": "Right" }
+      ],
+      "default": "center"
     }
   ],
   "presets": [
     {
-      "name": "Custom Dropdown",
+      "name": "Custom Dropdown"
     }
   ]
 }
