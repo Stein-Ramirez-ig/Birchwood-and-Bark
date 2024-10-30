@@ -19,6 +19,7 @@
     },
     "two_images_section_diDKbz": {
       "type": "two-images-section",
+      "disabled": true,
       "settings": {
         "header": "<p>,,,l</p>",
         "image_one": "shopify://shop_images/Patent-Pending-BnB.png",
