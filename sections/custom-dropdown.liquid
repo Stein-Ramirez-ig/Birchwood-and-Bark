@@ -1,4 +1,4 @@
-{%-style -%}
+{% style %}
   
 .tab-header-caller {
     background-color: #ffffff; /* Change background color */
@@ -17,9 +17,9 @@
     font-size: 16px; /* Change font size */
 }
 
-{%- endstyle -%}
+{% endstyle %}
 <div class="tab-header-caller" style="min-height: 250px; background-color: {{ settings.header_bg_color }}; color: {{ settings.text_color }};">
-    <h2 style="font-family: {{ settings.text_font }}">{{ settings.header_text }}</h2>
+    <h1 style="font-family: {{ settings.text_font }}">{{ settings.header_text }}</h1>
 </div>
 <div class="caller-drop-down" style="text-align: center; padding-left: 25%; padding-right: 25%; background-color: {{ settings.content_bg_color }};">
     <p style="color: {{ settings.text_color }};">{{ settings.dropdown_content }}</p>
@@ -30,10 +30,9 @@
   "name": "Custom Dropdown",
   "settings": [
     {
-      "type": "text",
-      "id": "header_text",
-      "label": "Header Text",
-      "default": "Edit Me"
+      "type": "richtext",
+      "id": "header",
+      "label": "Header Text"
     },
     {
       "type": "textarea",
