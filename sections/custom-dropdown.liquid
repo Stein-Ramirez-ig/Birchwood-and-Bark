@@ -1,6 +1,51 @@
+
+<div class="tab-header-caller" style="min-height: 250px; background-color: {{ settings.header_bg_color }}; color: {{ settings.text_color }};">
+    <h2 style="font-family: {{ settings.text_font }}">{{ settings.header_text }}</h2>
+</div>
+<div class="caller-drop-down" style="text-align: center; padding-left: 25%; padding-right: 25%; background-color: {{ settings.content_bg_color }};">
+    <p style="color: {{ settings.text_color }};">{{ settings.dropdown_content }}</p>
+</div>
+
 {% schema %}
-  {
-    "name": "Section name",
-    "settings": []
-  }
+{
+  "name": "Custom Dropdown",
+  "settings": [
+    {
+      "type": "text",
+      "id": "header_text",
+      "label": "Header Text",
+      "default": "Edit Me"
+    },
+    {
+      "type": "textarea",
+      "id": "dropdown_content",
+      "label": "Dropdown Content",
+      "default": "This is where you can add information, icons, and modify text styles."
+    },
+    {
+      "type": "color",
+      "id": "header_bg_color",
+      "label": "Header Background Color",
+      "default": "#f0f0f0"
+    },
+    {
+      "type": "color",
+      "id": "content_bg_color",
+      "label": "Content Background Color",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text Color",
+      "default": "#333333"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Custom Dropdown",
+      "category": "Custom"
+    }
+  ]
+}
 {% endschema %}
