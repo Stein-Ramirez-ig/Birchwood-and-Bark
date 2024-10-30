@@ -35,7 +35,7 @@
     "custom_dropdown_AXPwEg": {
       "type": "custom-dropdown",
       "settings": {
-        "header": "<p>sdfsdfdsf</p>",
+        "header": "<p>Hello world</p>",
         "dropdown_content": "This is where you can add information, icons, and modify text styles.",
         "header_bg_color": "#f0f0f0",
         "content_bg_color": "#ffffff",
