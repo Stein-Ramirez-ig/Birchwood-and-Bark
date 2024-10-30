@@ -26,12 +26,25 @@
         "header2": "<p>lll</p>",
         "paragraph": "Your llparagraph text here.",
         "show_button": false,
-        "cta_button": "Click Me"
+        "cta_button": "Click Me",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "custom_dropdown_AXPwEg": {
+      "type": "custom-dropdown",
+      "settings": {
+        "header": "<p>sdfsdfdsf</p>",
+        "dropdown_content": "This is where you can add information, icons, and modify text styles.",
+        "header_bg_color": "#f0f0f0",
+        "content_bg_color": "#ffffff",
+        "text_color": "#333333"
       }
     }
   },
   "order": [
     "main",
-    "two_images_section_diDKbz"
+    "two_images_section_diDKbz",
+    "custom_dropdown_AXPwEg"
   ]
 }
