@@ -34,12 +34,17 @@
     },
     "custom_dropdown_AXPwEg": {
       "type": "custom-dropdown",
+      "custom_css": [
+        "ul {line-height: 60px;}"
+      ],
       "settings": {
-        "header": "<p>Hello world</p>",
-        "dropdown_content": "This is where you can add information, icons, and modify text styles.",
+        "header": "<h2>Birchwood & Bark Subscriber Benefits<br/></h2><p>Subscribe to unlock new benefits.</p><p></p>",
+        "dropdown_content": "<ul><li><strong>Big Savings</strong> 10% Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li><li><strong>Early Access</strong> First dibs on select items before anyone else.</li><li><strong>Free Shipping </strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li></ul>",
         "header_bg_color": "#f0f0f0",
         "content_bg_color": "#ffffff",
-        "text_color": "#333333"
+        "text_color": "#333333",
+        "header_text_alignment": "center",
+        "dropdown_text_alignment": "center"
       }
     }
   },
