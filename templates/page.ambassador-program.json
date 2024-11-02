@@ -35,7 +35,8 @@
     "custom_dropdown_AXPwEg": {
       "type": "custom-dropdown",
       "custom_css": [
-        "ul {line-height: 60px;}"
+        "ul {line-height: 60px;}",
+        ".caller-drop-down {background:#EFF0F5;}"
       ],
       "settings": {
         "header": "<h2>Birchwood & Bark Subscriber Benefits<br/></h2><p>Subscribe to unlock new benefits.</p><p></p>",
