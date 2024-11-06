@@ -114,6 +114,7 @@
             >
                 {{ card_product.title | escape }}
             </h3>
+            <p>{{ product.description | truncate: 200 }}</p>
           </div>
           <div class="card__badge {{ settings.badge_position }}">
             {%- if card_product.available == false -%}
