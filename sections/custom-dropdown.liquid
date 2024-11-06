@@ -4,6 +4,7 @@
     background-color: #ffffff; /* Change background color */
     color: #000000; /* Change text color */
     font-family: Arial, sans-serif; /* Change text style */
+    boder-radius: 20px 20px 0 0 ;
 }
 
 .caller-drop-down {
@@ -15,12 +16,13 @@
     color: #333; /* Text color */
     font-size: 16px; /* Change font size */
 }
+ 
 
 {% endstyle %}
 
 <section>
 <div class="tab-header-caller" style="min-height: 250px; background-color: {{ section.settings.header_bg_color }}; color: {{ section.settings.text_color }}; cursor: pointer;" onclick="toggleDropdown(this)">
-    <div style="font-family: {{ section.settings.text_font.family }}; text-align: {{ section.settings.header_text_alignment }};">{{ section.settings.header }}</div>
+    <div class="text-header-caller" style="font-family: {{ section.settings.text_font.family }}; text-align: {{ section.settings.header_text_alignment }};">{{ section.settings.header }}</div>
 </div>
   {% comment %} dropdown content {% endcomment %}
   
