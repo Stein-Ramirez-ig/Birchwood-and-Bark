@@ -39,6 +39,7 @@ section{
   <hr style="min-width: 95%; height: 2px; background-color: #000000; border: none; ">
   <p style="color: {{ section.settings.text_color }};">{{ section.settings.dropdown_content }}</p>
   <hr style="min-width: 75%; height: 2px; background-color: #000000; border: none; margin-top: 40px;">
+  <p style="color: {{ section.settings.text_color }};">{{ section.settings.dropdown_content_faq }}</p>
    
 </div>
 
@@ -68,6 +69,11 @@ function toggleDropdown(element) {
       "type": "richtext",
       "id": "dropdown_content",
       "label": "Dropdown Content"
+    },
+    {
+      "type": "richtext",
+      "id": "dropdown_content_faq",
+      "label": "Dropdown Content FAQs"
     },
     {
       "type": "color",
