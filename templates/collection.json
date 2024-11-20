@@ -1,1 +1,168 @@
-{"sections":{"banner":{"type":"main-collection-banner","settings":{"show_collection_description":true,"show_collection_image":false,"color_scheme":"background-1"}},"product-grid":{"type":"main-collection-product-grid","settings":{"products_per_page":24,"columns_desktop":3,"color_scheme":"scheme-ce73379c-0811-47c6-a578-1a0709ed5138","image_ratio":"adapt","image_shape":"default","show_secondary_image":false,"show_vendor":false,"show_rating":false,"enable_quick_add":false,"enable_filtering":false,"filter_type":"horizontal","enable_sorting":true,"columns_mobile":"1","padding_top":48,"padding_bottom":60}},"82a3b242-cea8-4e39-bda6-298873a78a5c":{"type":"multicolumn-background","blocks":{"template--16338447925399__82a3b242-cea8-4e39-bda6-298873a78a5c-column-2":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/quotes.svg","title":"—ODIN","text":"<p>“Having a husky and GSD means there's SO MUCH hair in my house, and I would love having one liss thing to wash” <\/p>","link_label":"","link":""}},"template--16338447925399__82a3b242-cea8-4e39-bda6-298873a78a5c-column-1":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/quotes.svg","title":"—Brock","text":"<p>“This is a dog mom's dream come true!” <\/p>","link_label":"","link":""}},"template--16338447925399__82a3b242-cea8-4e39-bda6-298873a78a5c-column-3":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/quotes.svg","title":"—Poppy","text":"<p>“Just last week, our washer needed to be fixed because the filter was clogged with dog hair, so this is just what we need.”<\/p>","link_label":"","link":""}}},"block_order":["template--16338447925399__82a3b242-cea8-4e39-bda6-298873a78a5c-column-2","template--16338447925399__82a3b242-cea8-4e39-bda6-298873a78a5c-column-1","template--16338447925399__82a3b242-cea8-4e39-bda6-298873a78a5c-column-3"],"settings":{"image":"shopify:\/\/shop_images\/birchwood_hero_ffe6629a-0485-47ba-ab7e-747673c38994.jpg","title":"","heading_size":"h1","image_width":"full","image_ratio":"adapt","columns_desktop":3,"column_alignment":"center","background_style":"primary","button_label":"","button_link":"","color_scheme":"","columns_mobile":"1","swipe_on_mobile":false,"padding_top":100,"padding_bottom":100}},"be29fcb3-290f-4d48-a5d6-a7956d32b153":{"type":"size-guide","blocks":{"9aac52d8-a93f-4d84-b254-d86ce45a0790":{"type":"block","settings":{"image":"shopify:\/\/shop_images\/size_medium_dog.svg","item-title":"For breeds weighing  10-45 lbs","item-size":"Medium","item-title-1":"Beagle","item-title-2":"Cocker Spaniel","item-title-3":"French Bulldog","item-title-4":"Cavalier King Charles","item-title-5":"Miniature Schnauzer","item-title-6":"Pocket Pit","item-title-7":"Border Collie","item-link":"shopify:\/\/products\/medium-barney-bed"}},"52a323dd-ab13-4bf6-8aab-3ade0aa4024f":{"type":"block","settings":{"image":"shopify:\/\/shop_images\/size_large_dog.svg","item-title":"For breeds weighing  40-80 lbs","item-size":"Large","item-title-1":"Golden Retriever","item-title-2":"Labrador Retriever","item-title-3":"American Terrier","item-title-4":"Boxer","item-title-5":"Doodles","item-title-6":"English Bulldog","item-title-7":"German Shorthaired Pointer","item-link":"shopify:\/\/products\/large-barney-bed"}},"08bb29b3-639b-4462-9204-9b567296b9fe":{"type":"block","settings":{"image":"shopify:\/\/shop_images\/x_large_dog.svg","item-title":"For breeds weighing  80-140 lbs","item-size":"X-Large","item-title-1":"Bernese Mountain Dog","item-title-2":"German Shepherd","item-title-3":"Dalmatian","item-title-4":"Rhodesian Ridgeback","item-title-5":"American Bulldogs","item-title-6":"Dobermans","item-title-7":"Akita","item-link":"shopify:\/\/products\/xl-barney-bed"}}},"block_order":["9aac52d8-a93f-4d84-b254-d86ce45a0790","52a323dd-ab13-4bf6-8aab-3ade0aa4024f","08bb29b3-639b-4462-9204-9b567296b9fe"],"settings":{"main-title":"Size Guide","main-desc":"","spacing-top":20,"spacing-bottom":60}}},"order":["banner","product-grid","82a3b242-cea8-4e39-bda6-298873a78a5c","be29fcb3-290f-4d48-a5d6-a7956d32b153"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "banner": {
+      "type": "main-collection-banner",
+      "settings": {
+        "show_collection_description": true,
+        "show_collection_image": false,
+        "color_scheme": "background-1"
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "settings": {
+        "products_per_page": 24,
+        "columns_desktop": 3,
+        "color_scheme": "scheme-ce73379c-0811-47c6-a578-1a0709ed5138",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "enable_filtering": false,
+        "filter_type": "horizontal",
+        "enable_sorting": true,
+        "columns_mobile": "1",
+        "padding_top": 48,
+        "padding_bottom": 60
+      }
+    },
+    "82a3b242-cea8-4e39-bda6-298873a78a5c": {
+      "type": "multicolumn-background",
+      "blocks": {
+        "template--16338447925399__82a3b242-cea8-4e39-bda6-298873a78a5c-column-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/quotes.svg",
+            "title": "—ODIN",
+            "text": "<p>“Having a husky and GSD means there's SO MUCH hair in my house, and I would love having one liss thing to wash” </p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--16338447925399__82a3b242-cea8-4e39-bda6-298873a78a5c-column-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/quotes.svg",
+            "title": "—Brock",
+            "text": "<p>“This is a dog mom's dream come true!” </p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--16338447925399__82a3b242-cea8-4e39-bda6-298873a78a5c-column-3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/quotes.svg",
+            "title": "—Poppy",
+            "text": "<p>“Just last week, our washer needed to be fixed because the filter was clogged with dog hair, so this is just what we need.”</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16338447925399__82a3b242-cea8-4e39-bda6-298873a78a5c-column-2",
+        "template--16338447925399__82a3b242-cea8-4e39-bda6-298873a78a5c-column-1",
+        "template--16338447925399__82a3b242-cea8-4e39-bda6-298873a78a5c-column-3"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/birchwood_hero_ffe6629a-0485-47ba-ab7e-747673c38994.jpg",
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
+    "be29fcb3-290f-4d48-a5d6-a7956d32b153": {
+      "type": "size-guide",
+      "blocks": {
+        "9aac52d8-a93f-4d84-b254-d86ce45a0790": {
+          "type": "block",
+          "settings": {
+            "image": "shopify://shop_images/size_medium_dog.svg",
+            "item-title": "For breeds weighing  10-45 lbs",
+            "item-size": "Medium",
+            "item-title-1": "Beagle",
+            "item-title-2": "Cocker Spaniel",
+            "item-title-3": "French Bulldog",
+            "item-title-4": "Cavalier King Charles",
+            "item-title-5": "Miniature Schnauzer",
+            "item-title-6": "Pocket Pit",
+            "item-title-7": "Border Collie",
+            "item-link": "shopify://products/medium-bed"
+          }
+        },
+        "52a323dd-ab13-4bf6-8aab-3ade0aa4024f": {
+          "type": "block",
+          "settings": {
+            "image": "shopify://shop_images/size_large_dog.svg",
+            "item-title": "For breeds weighing  40-80 lbs",
+            "item-size": "Large",
+            "item-title-1": "Golden Retriever",
+            "item-title-2": "Labrador Retriever",
+            "item-title-3": "American Terrier",
+            "item-title-4": "Boxer",
+            "item-title-5": "Doodles",
+            "item-title-6": "English Bulldog",
+            "item-title-7": "German Shorthaired Pointer",
+            "item-link": "shopify://products/large-barney-bed"
+          }
+        },
+        "08bb29b3-639b-4462-9204-9b567296b9fe": {
+          "type": "block",
+          "settings": {
+            "image": "shopify://shop_images/x_large_dog.svg",
+            "item-title": "For breeds weighing  80-140 lbs",
+            "item-size": "X-Large",
+            "item-title-1": "Bernese Mountain Dog",
+            "item-title-2": "German Shepherd",
+            "item-title-3": "Dalmatian",
+            "item-title-4": "Rhodesian Ridgeback",
+            "item-title-5": "American Bulldogs",
+            "item-title-6": "Dobermans",
+            "item-title-7": "Akita",
+            "item-link": "shopify://products/xl-barney-bed"
+          }
+        }
+      },
+      "block_order": [
+        "9aac52d8-a93f-4d84-b254-d86ce45a0790",
+        "52a323dd-ab13-4bf6-8aab-3ade0aa4024f",
+        "08bb29b3-639b-4462-9204-9b567296b9fe"
+      ],
+      "settings": {
+        "main-title": "Size Guide",
+        "main-desc": "",
+        "spacing-top": 20,
+        "spacing-bottom": 60
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "product-grid",
+    "82a3b242-cea8-4e39-bda6-298873a78a5c",
+    "be29fcb3-290f-4d48-a5d6-a7956d32b153"
+  ]
+}

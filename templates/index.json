@@ -1,1 +1,397 @@
-{"sections":{"e0f3e4a7-6a53-4530-b58c-2382c803bfac":{"type":"image-banner","blocks":{"template--16338447925399__e0f3e4a7-6a53-4530-b58c-2382c803bfac-heading-1":{"type":"heading","settings":{"heading":"Hypoallergenic, laundry-free luxury dog beds","heading_size":"h1"}},"template--16338447925399__e0f3e4a7-6a53-4530-b58c-2382c803bfac-buttons-1":{"type":"buttons","settings":{"button_label_1":"Shop Beds","button_link_1":"shopify:\/\/collections\/shop-beds","button_style_secondary_1":false,"button_label_2":"Shop EcoCovers","button_link_2":"shopify:\/\/collections\/shop-ecocovers","button_style_secondary_2":false}}},"block_order":["template--16338447925399__e0f3e4a7-6a53-4530-b58c-2382c803bfac-heading-1","template--16338447925399__e0f3e4a7-6a53-4530-b58c-2382c803bfac-buttons-1"],"custom_css":[".banner__content.banner__content--middle-center {align-items: flex-end;}"],"settings":{"image":"shopify:\/\/shop_images\/birchwood_hero_1202eb71-eb5b-4a7c-ae6d-144443e0fbfd.jpg","image_overlay_opacity":0,"image_height":"large","desktop_content_position":"middle-center","show_text_box":true,"desktop_content_alignment":"center","color_scheme":"inverse","image_behavior":"none","mobile_content_alignment":"center","stack_images_on_mobile":true,"show_text_below":true}},"136a2654-eee2-42be-b73e-96964d8d4f35":{"type":"collection-list","blocks":{"template--16338447925399__136a2654-eee2-42be-b73e-96964d8d4f35-featured_collection-1":{"type":"featured_collection","settings":{"collection":"shop-beds"}},"template--16338447925399__136a2654-eee2-42be-b73e-96964d8d4f35-featured_collection-2":{"type":"featured_collection","settings":{"collection":"shop-ecocovers"}}},"block_order":["template--16338447925399__136a2654-eee2-42be-b73e-96964d8d4f35-featured_collection-1","template--16338447925399__136a2654-eee2-42be-b73e-96964d8d4f35-featured_collection-2"],"settings":{"title":"","heading_size":"h1","image_ratio":"square","columns_desktop":2,"color_scheme":"","show_view_all":false,"columns_mobile":"1","swipe_on_mobile":false,"padding_top":52,"padding_bottom":36}},"266af94b-c2e6-45df-bfee-51ec8b35b07e":{"type":"multicolumn","blocks":{"template--16338447925399__266af94b-c2e6-45df-bfee-51ec8b35b07e-column-1":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/usa_today_logo.png","title":"","text":"","link_label":"","link":""}},"template--16338447925399__266af94b-c2e6-45df-bfee-51ec8b35b07e-column-2":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/well-and-good.png","title":"","text":"","link_label":"","link":""}},"template--16338447925399__266af94b-c2e6-45df-bfee-51ec8b35b07e-column-3":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/usa_today_logo.png","title":"","text":"","link_label":"","link":""}},"c754265a-0561-4d93-bb7b-1c1b3476f622":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/well-and-good.png","title":"","text":"","link_label":"","link":""}}},"block_order":["template--16338447925399__266af94b-c2e6-45df-bfee-51ec8b35b07e-column-1","template--16338447925399__266af94b-c2e6-45df-bfee-51ec8b35b07e-column-2","template--16338447925399__266af94b-c2e6-45df-bfee-51ec8b35b07e-column-3","c754265a-0561-4d93-bb7b-1c1b3476f622"],"disabled":true,"custom_css":[".multicolumn-card-spacing {padding: 0; height: 100%;}",".multicolumn.background-primary .multicolumn-card {background: transparent;}",".multicolumn-list__item.center .media--adapt img {position: unset; transform: none; width: 100%; height: 100%; object-fit: contain; margin: auto;}",".multicolumn-list__item.center .media--adapt {padding: 0 !important; height: 100%;}","@media (max-width: 768px) {.multicolumn-list__item.center .media--adapt img {width: 80%; }}"],"settings":{"title":"","heading_size":"h2","image_width":"full","image_ratio":"adapt","columns_desktop":4,"column_alignment":"center","background_style":"primary","button_label":"","button_link":"","color_scheme":"background-1","section_id":"","columns_mobile":"1","swipe_on_mobile":true,"padding_top":32,"padding_bottom":60}},"6fd51f9d-27f9-4c1b-a1a4-8af3545244d7":{"type":"multicolumn","blocks":{"df128acc-3387-41e6-88e9-4349767fe04b":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/Remove_soiled_cover.svg","title":"Remove soiled cover","text":"","link_label":"","link":""}},"ac7ac551-fea8-41fd-a5d8-8aac6c934eff":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/Spay_bed_and_wipe.svg","title":"Spray bed and wipe","text":"","link_label":"","link":""}},"81d8767e-6c2f-4ade-b753-0be88e69f891":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/Replace_cover.svg","title":"Replace cover","text":"","link_label":"","link":""}},"1ad285fb-5682-4d0a-8d9a-9262bff22da9":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/Ready_for_lounging.svg","title":"Ready for lounging!","text":"","link_label":"","link":""}}},"block_order":["df128acc-3387-41e6-88e9-4349767fe04b","ac7ac551-fea8-41fd-a5d8-8aac6c934eff","81d8767e-6c2f-4ade-b753-0be88e69f891","1ad285fb-5682-4d0a-8d9a-9262bff22da9"],"custom_css":[".multicolumn.background-primary .multicolumn-card {background: transparent;}","h3.inline-richtext {font-size: 24px; @media (max-width: 768px) {font-size: 18px; }}",".multicolumn.color-background-1.gradient.background-primary {background: #f7f7f7;}","@media (max-width: 768px) {.multicolumn-card__info {padding: 2.5rem 0.5rem; }}"],"settings":{"title":"How It Works","heading_size":"h2","image_width":"half","image_ratio":"adapt","columns_desktop":4,"column_alignment":"center","background_style":"primary","button_label":"","button_link":"","color_scheme":"background-1","section_id":"care_cleaning","columns_mobile":"2","swipe_on_mobile":false,"padding_top":52,"padding_bottom":52}},"82a3b242-cea8-4e39-bda6-298873a78a5c":{"type":"multicolumn-background","blocks":{"template--16338447925399__82a3b242-cea8-4e39-bda6-298873a78a5c-column-2":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/quotes.svg","title":"—ODIN","text":"<p>“Having a husky and GSD means there's SO MUCH hair in my house, and I would love having one liss thing to wash” <\/p>","link_label":"","link":""}},"template--16338447925399__82a3b242-cea8-4e39-bda6-298873a78a5c-column-1":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/quotes.svg","title":"—Brock","text":"<p>“This is a dog mom's dream come true!” <\/p>","link_label":"","link":""}},"template--16338447925399__82a3b242-cea8-4e39-bda6-298873a78a5c-column-3":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/quotes.svg","title":"—Poppy","text":"<p>“Just last week, our washer needed to be fixed because the filter was clogged with dog hair, so this is just what we need.”<\/p>","link_label":"","link":""}}},"block_order":["template--16338447925399__82a3b242-cea8-4e39-bda6-298873a78a5c-column-2","template--16338447925399__82a3b242-cea8-4e39-bda6-298873a78a5c-column-1","template--16338447925399__82a3b242-cea8-4e39-bda6-298873a78a5c-column-3"],"settings":{"image":"shopify:\/\/shop_images\/birchwood_hero_ffe6629a-0485-47ba-ab7e-747673c38994.jpg","title":"","heading_size":"h1","image_width":"full","image_ratio":"adapt","columns_desktop":3,"column_alignment":"center","background_style":"primary","button_label":"","button_link":"","color_scheme":"","columns_mobile":"1","swipe_on_mobile":false,"padding_top":100,"padding_bottom":100}},"4bb14c95-ba19-4e36-a1ce-8156aa52cc77":{"type":"bed-details","settings":{}},"be29fcb3-290f-4d48-a5d6-a7956d32b153":{"type":"size-guide","blocks":{"9aac52d8-a93f-4d84-b254-d86ce45a0790":{"type":"block","settings":{"image":"shopify:\/\/shop_images\/size_medium_dog.svg","item-title":"For breeds weighing  10-45 lbs","item-size":"Medium","item-title-1":"Beagle","item-title-2":"Cocker Spaniel","item-title-3":"French Bulldog","item-title-4":"Cavalier King Charles","item-title-5":"Miniature Schnauzer","item-title-6":"Pocket Pit","item-title-7":"Border Collie","item-link":"shopify:\/\/products\/medium-barney-bed"}},"52a323dd-ab13-4bf6-8aab-3ade0aa4024f":{"type":"block","settings":{"image":"shopify:\/\/shop_images\/size_large_dog.svg","item-title":"For breeds weighing  40-80 lbs","item-size":"Large","item-title-1":"Golden Retriever","item-title-2":"Labrador Retriever","item-title-3":"American Terrier","item-title-4":"Boxer","item-title-5":"Doodles","item-title-6":"English Bulldog","item-title-7":"German Shorthaired Pointer","item-link":"shopify:\/\/products\/large-barney-bed"}},"08bb29b3-639b-4462-9204-9b567296b9fe":{"type":"block","settings":{"image":"shopify:\/\/shop_images\/x_large_dog.svg","item-title":"For breeds weighing  80-140 lbs","item-size":"X-Large","item-title-1":"Bernese Mountain Dog","item-title-2":"German Shepherd","item-title-3":"Dalmatian","item-title-4":"Rhodesian Ridgeback","item-title-5":"American Bulldogs","item-title-6":"Dobermans","item-title-7":"Akita","item-link":"shopify:\/\/products\/xl-barney-bed"}}},"block_order":["9aac52d8-a93f-4d84-b254-d86ce45a0790","52a323dd-ab13-4bf6-8aab-3ade0aa4024f","08bb29b3-639b-4462-9204-9b567296b9fe"],"settings":{"main-title":"Size Guide","main-desc":"","spacing-top":20,"spacing-bottom":60}},"294fdc01-b2d4-4507-99e3-b8d439cb8318":{"type":"image-grid-content-Ltr","settings":{"image_large":"shopify:\/\/shop_images\/bw-img.png","text":"<h4>Setting a new bar for pet comfort and sustainability<\/h4><p>At Birchwood & Bark, we believe that your dog deserves the best - and so does the planet.<br\/><br\/>That's why we've created a laundry-free hypoallergenic dog bed that combines superior comfort with sustainable materials.<br\/><br\/>From the birchwood disposable cover to the waterproof, scratch-resistant mattress protector, every element of our bed is designed to leave a minimal environmental impact.<\/p>","bottom_text":"Our Mission","button_link":"shopify:\/\/pages\/our-story","padding_top":36,"padding_bottom":36}},"4b5a3171-b46b-48d7-8d59-0ce1aea29d39":{"type":"two-col-image-content","settings":{"image_large":"shopify:\/\/shop_images\/Jax_Laying_on_Bed_1.jpg","text":"<h2>Become a Birchwood & Bark Ambassador <\/h2><p>Join our mission to revolutionize pet care with sustainability at its heart. As a Birchwood & Bark Ambassador, you'll spread the word about our eco-friendly dog beds, directly contributing to a greener planet while enjoying exclusive rewards and discounts. Connect, share, and lead the change towards a more sustainable future for our furry friends.<\/p><p>Why Wait? Embrace your passion for pets and the planet. Sign up now and start making a difference today!<\/p>","bottom_text":"See Membership Options","button_link":"shopify:\/\/pages\/eco-bark-movement","padding_top":36,"padding_bottom":36}}},"order":["e0f3e4a7-6a53-4530-b58c-2382c803bfac","136a2654-eee2-42be-b73e-96964d8d4f35","266af94b-c2e6-45df-bfee-51ec8b35b07e","6fd51f9d-27f9-4c1b-a1a4-8af3545244d7","82a3b242-cea8-4e39-bda6-298873a78a5c","4bb14c95-ba19-4e36-a1ce-8156aa52cc77","be29fcb3-290f-4d48-a5d6-a7956d32b153","294fdc01-b2d4-4507-99e3-b8d439cb8318","4b5a3171-b46b-48d7-8d59-0ce1aea29d39"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "e0f3e4a7-6a53-4530-b58c-2382c803bfac": {
+      "type": "image-banner",
+      "blocks": {
+        "template--16338447925399__e0f3e4a7-6a53-4530-b58c-2382c803bfac-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Hypoallergenic, laundry-free luxury dog beds",
+            "heading_size": "h1"
+          }
+        },
+        "template--16338447925399__e0f3e4a7-6a53-4530-b58c-2382c803bfac-buttons-1": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Shop Beds",
+            "button_link_1": "shopify://collections/shop-beds",
+            "button_style_secondary_1": false,
+            "button_label_2": "Shop EcoCovers",
+            "button_link_2": "shopify://collections/shop-ecocovers",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16338447925399__e0f3e4a7-6a53-4530-b58c-2382c803bfac-heading-1",
+        "template--16338447925399__e0f3e4a7-6a53-4530-b58c-2382c803bfac-buttons-1"
+      ],
+      "custom_css": [
+        ".banner__content.banner__content--middle-center {align-items: flex-end;}"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/birchwood_hero_1202eb71-eb5b-4a7c-ae6d-144443e0fbfd.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "large",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "inverse",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "136a2654-eee2-42be-b73e-96964d8d4f35": {
+      "type": "collection-list",
+      "blocks": {
+        "template--16338447925399__136a2654-eee2-42be-b73e-96964d8d4f35-featured_collection-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "shop-beds"
+          }
+        },
+        "template--16338447925399__136a2654-eee2-42be-b73e-96964d8d4f35-featured_collection-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "shop-ecocovers"
+          }
+        }
+      },
+      "block_order": [
+        "template--16338447925399__136a2654-eee2-42be-b73e-96964d8d4f35-featured_collection-1",
+        "template--16338447925399__136a2654-eee2-42be-b73e-96964d8d4f35-featured_collection-2"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 2,
+        "color_scheme": "",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 52,
+        "padding_bottom": 36
+      }
+    },
+    "266af94b-c2e6-45df-bfee-51ec8b35b07e": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--16338447925399__266af94b-c2e6-45df-bfee-51ec8b35b07e-column-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/usa_today_logo.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--16338447925399__266af94b-c2e6-45df-bfee-51ec8b35b07e-column-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/well-and-good.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--16338447925399__266af94b-c2e6-45df-bfee-51ec8b35b07e-column-3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/usa_today_logo.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "c754265a-0561-4d93-bb7b-1c1b3476f622": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/well-and-good.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16338447925399__266af94b-c2e6-45df-bfee-51ec8b35b07e-column-1",
+        "template--16338447925399__266af94b-c2e6-45df-bfee-51ec8b35b07e-column-2",
+        "template--16338447925399__266af94b-c2e6-45df-bfee-51ec8b35b07e-column-3",
+        "c754265a-0561-4d93-bb7b-1c1b3476f622"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".multicolumn-card-spacing {padding: 0; height: 100%;}",
+        ".multicolumn.background-primary .multicolumn-card {background: transparent;}",
+        ".multicolumn-list__item.center .media--adapt img {position: unset; transform: none; width: 100%; height: 100%; object-fit: contain; margin: auto;}",
+        ".multicolumn-list__item.center .media--adapt {padding: 0 !important; height: 100%;}",
+        "@media (max-width: 768px) {.multicolumn-list__item.center .media--adapt img {width: 80%; }}"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h2",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "section_id": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 32,
+        "padding_bottom": 60
+      }
+    },
+    "6fd51f9d-27f9-4c1b-a1a4-8af3545244d7": {
+      "type": "multicolumn",
+      "blocks": {
+        "df128acc-3387-41e6-88e9-4349767fe04b": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Remove_soiled_cover.svg",
+            "title": "Remove soiled cover",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "ac7ac551-fea8-41fd-a5d8-8aac6c934eff": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Spay_bed_and_wipe.svg",
+            "title": "Spray bed and wipe",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "81d8767e-6c2f-4ade-b753-0be88e69f891": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Replace_cover.svg",
+            "title": "Replace cover",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "1ad285fb-5682-4d0a-8d9a-9262bff22da9": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Ready_for_lounging.svg",
+            "title": "Ready for lounging!",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "df128acc-3387-41e6-88e9-4349767fe04b",
+        "ac7ac551-fea8-41fd-a5d8-8aac6c934eff",
+        "81d8767e-6c2f-4ade-b753-0be88e69f891",
+        "1ad285fb-5682-4d0a-8d9a-9262bff22da9"
+      ],
+      "custom_css": [
+        ".multicolumn.background-primary .multicolumn-card {background: transparent;}",
+        "h3.inline-richtext {font-size: 24px; @media (max-width: 768px) {font-size: 18px; }}",
+        ".multicolumn.color-background-1.gradient.background-primary {background: #f7f7f7;}",
+        "@media (max-width: 768px) {.multicolumn-card__info {padding: 2.5rem 0.5rem; }}"
+      ],
+      "settings": {
+        "title": "How It Works",
+        "heading_size": "h2",
+        "image_width": "half",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "section_id": "care_cleaning",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 52,
+        "padding_bottom": 52
+      }
+    },
+    "82a3b242-cea8-4e39-bda6-298873a78a5c": {
+      "type": "multicolumn-background",
+      "blocks": {
+        "template--16338447925399__82a3b242-cea8-4e39-bda6-298873a78a5c-column-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/quotes.svg",
+            "title": "—ODIN",
+            "text": "<p>“Having a husky and GSD means there's SO MUCH hair in my house, and I would love having one liss thing to wash” </p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--16338447925399__82a3b242-cea8-4e39-bda6-298873a78a5c-column-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/quotes.svg",
+            "title": "—Brock",
+            "text": "<p>“This is a dog mom's dream come true!” </p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--16338447925399__82a3b242-cea8-4e39-bda6-298873a78a5c-column-3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/quotes.svg",
+            "title": "—Poppy",
+            "text": "<p>“Just last week, our washer needed to be fixed because the filter was clogged with dog hair, so this is just what we need.”</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16338447925399__82a3b242-cea8-4e39-bda6-298873a78a5c-column-2",
+        "template--16338447925399__82a3b242-cea8-4e39-bda6-298873a78a5c-column-1",
+        "template--16338447925399__82a3b242-cea8-4e39-bda6-298873a78a5c-column-3"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/birchwood_hero_ffe6629a-0485-47ba-ab7e-747673c38994.jpg",
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
+    "4bb14c95-ba19-4e36-a1ce-8156aa52cc77": {
+      "type": "bed-details",
+      "settings": {}
+    },
+    "be29fcb3-290f-4d48-a5d6-a7956d32b153": {
+      "type": "size-guide",
+      "blocks": {
+        "9aac52d8-a93f-4d84-b254-d86ce45a0790": {
+          "type": "block",
+          "settings": {
+            "image": "shopify://shop_images/size_medium_dog.svg",
+            "item-title": "For breeds weighing  10-45 lbs",
+            "item-size": "Medium",
+            "item-title-1": "Beagle",
+            "item-title-2": "Cocker Spaniel",
+            "item-title-3": "French Bulldog",
+            "item-title-4": "Cavalier King Charles",
+            "item-title-5": "Miniature Schnauzer",
+            "item-title-6": "Pocket Pit",
+            "item-title-7": "Border Collie",
+            "item-link": "shopify://products/medium-bed"
+          }
+        },
+        "52a323dd-ab13-4bf6-8aab-3ade0aa4024f": {
+          "type": "block",
+          "settings": {
+            "image": "shopify://shop_images/size_large_dog.svg",
+            "item-title": "For breeds weighing  40-80 lbs",
+            "item-size": "Large",
+            "item-title-1": "Golden Retriever",
+            "item-title-2": "Labrador Retriever",
+            "item-title-3": "American Terrier",
+            "item-title-4": "Boxer",
+            "item-title-5": "Doodles",
+            "item-title-6": "English Bulldog",
+            "item-title-7": "German Shorthaired Pointer",
+            "item-link": "shopify://products/large-barney-bed"
+          }
+        },
+        "08bb29b3-639b-4462-9204-9b567296b9fe": {
+          "type": "block",
+          "settings": {
+            "image": "shopify://shop_images/x_large_dog.svg",
+            "item-title": "For breeds weighing  80-140 lbs",
+            "item-size": "X-Large",
+            "item-title-1": "Bernese Mountain Dog",
+            "item-title-2": "German Shepherd",
+            "item-title-3": "Dalmatian",
+            "item-title-4": "Rhodesian Ridgeback",
+            "item-title-5": "American Bulldogs",
+            "item-title-6": "Dobermans",
+            "item-title-7": "Akita",
+            "item-link": "shopify://products/xl-barney-bed"
+          }
+        }
+      },
+      "block_order": [
+        "9aac52d8-a93f-4d84-b254-d86ce45a0790",
+        "52a323dd-ab13-4bf6-8aab-3ade0aa4024f",
+        "08bb29b3-639b-4462-9204-9b567296b9fe"
+      ],
+      "settings": {
+        "main-title": "Size Guide",
+        "main-desc": "",
+        "spacing-top": 20,
+        "spacing-bottom": 60
+      }
+    },
+    "294fdc01-b2d4-4507-99e3-b8d439cb8318": {
+      "type": "image-grid-content-Ltr",
+      "settings": {
+        "image_large": "shopify://shop_images/bw-img.png",
+        "text": "<h4>Setting a new bar for pet comfort and sustainability</h4><p>At Birchwood & Bark, we believe that your dog deserves the best - and so does the planet.<br/><br/>That's why we've created a laundry-free hypoallergenic dog bed that combines superior comfort with sustainable materials.<br/><br/>From the birchwood disposable cover to the waterproof, scratch-resistant mattress protector, every element of our bed is designed to leave a minimal environmental impact.</p>",
+        "bottom_text": "Our Mission",
+        "button_link": "shopify://pages/our-story",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "4b5a3171-b46b-48d7-8d59-0ce1aea29d39": {
+      "type": "two-col-image-content",
+      "settings": {
+        "image_large": "shopify://shop_images/Jax_Laying_on_Bed_1.jpg",
+        "text": "<h2>Become a Birchwood & Bark Ambassador </h2><p>Join our mission to revolutionize pet care with sustainability at its heart. As a Birchwood & Bark Ambassador, you'll spread the word about our eco-friendly dog beds, directly contributing to a greener planet while enjoying exclusive rewards and discounts. Connect, share, and lead the change towards a more sustainable future for our furry friends.</p><p>Why Wait? Embrace your passion for pets and the planet. Sign up now and start making a difference today!</p>",
+        "bottom_text": "See Membership Options",
+        "button_link": "shopify://pages/eco-bark-movement",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "e0f3e4a7-6a53-4530-b58c-2382c803bfac",
+    "136a2654-eee2-42be-b73e-96964d8d4f35",
+    "266af94b-c2e6-45df-bfee-51ec8b35b07e",
+    "6fd51f9d-27f9-4c1b-a1a4-8af3545244d7",
+    "82a3b242-cea8-4e39-bda6-298873a78a5c",
+    "4bb14c95-ba19-4e36-a1ce-8156aa52cc77",
+    "be29fcb3-290f-4d48-a5d6-a7956d32b153",
+    "294fdc01-b2d4-4507-99e3-b8d439cb8318",
+    "4b5a3171-b46b-48d7-8d59-0ce1aea29d39"
+  ]
+}
