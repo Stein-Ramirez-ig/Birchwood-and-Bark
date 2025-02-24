@@ -39,7 +39,7 @@
         "h2 {color: white;}"
       ],
       "settings": {
-        "header": "<h2><strong>Birchwood & Bark Subscriber Benefits</strong><br/></h2><p>Subscribe to unlock new benefits.</p><p></p>",
+        "header": "<h2><strong>Birchwood & Bark Subscriber Benefits</strong><br/></h2><p>Subscribe to unlock new benefits.<br/>HI matheus</p><p></p>",
         "dropdown_content": "<ul><li><strong>Big Savings</strong> 10% Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li><li><strong>Early Access</strong> First dibs on select items before anyone else.</li><li><strong>Free Shipping </strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li></ul>",
         "dropdown_content_faq": "<h4><strong>Questions? Check out our FAQs</strong></h4><h4></h4><p> *Lorem ipsum... - DISCLAIMER - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nunc magna, convallis id nibh vitae, tempor malesuada leo. Cras quis sollicitudin libero, eu malesuada risus. Nam ut bibendum leo. Mauris venenatis lectus orci, eget rhoncus purus imperdiet non. Donec tempus rutrum ultrices. Maecenas sed viverra mi, eget aliquam neque. Integer eu sollicitudin odio. Donec vel porta erat. Morbi fringilla euismod mollis.</p>",
         "header_bg_color": "#b88d73",
