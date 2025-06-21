@@ -23,7 +23,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Shop Beds",
-            "button_link_1": "shopify://collections/shop-beds",
+            "button_link_1": "shopify://collections/orthopedic-memory-foam-dog-beds",
             "button_style_secondary_1": false,
             "button_label_2": "Shop EcoCovers",
             "button_link_2": "shopify://collections/shop-ecocovers",
@@ -58,7 +58,7 @@
         "template--16338447925399__136a2654-eee2-42be-b73e-96964d8d4f35-featured_collection-1": {
           "type": "featured_collection",
           "settings": {
-            "collection": "shop-beds"
+            "collection": "orthopedic-memory-foam-dog-beds"
           }
         },
         "template--16338447925399__136a2654-eee2-42be-b73e-96964d8d4f35-featured_collection-2": {

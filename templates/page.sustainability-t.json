@@ -1,1 +1,233 @@
-{"sections":{"main":{"type":"main-page","disabled":true,"settings":{"padding_top":36,"padding_bottom":28}},"f35921b4-bf18-4231-90ab-58659fa15afb":{"type":"image-banner","blocks":{"template--16338467553431__f35921b4-bf18-4231-90ab-58659fa15afb-text-1":{"type":"text","settings":{"text":"SUSTAINABILITY MISSION","text_style":"body"}},"template--16338467553431__f35921b4-bf18-4231-90ab-58659fa15afb-heading-1":{"type":"heading","settings":{"heading":"In unity, there’s power to transform","heading_size":"h1"}}},"block_order":["template--16338467553431__f35921b4-bf18-4231-90ab-58659fa15afb-text-1","template--16338467553431__f35921b4-bf18-4231-90ab-58659fa15afb-heading-1"],"custom_css":[".banner__content.banner__content--middle-center {align-items: flex-end;}"],"settings":{"image":"shopify:\/\/shop_images\/birchwood_hero_6aab9269-f93c-4668-bea5-cb468d8d843b.jpg","image_overlay_opacity":0,"image_height":"adapt","desktop_content_position":"middle-center","show_text_box":true,"desktop_content_alignment":"center","color_scheme":"inverse","image_behavior":"none","mobile_content_alignment":"center","stack_images_on_mobile":true,"show_text_below":true}},"5b8e79d4-ef99-4943-9bb9-d02caeba56dd":{"type":"multirow","blocks":{"template--16338467553431__5b8e79d4-ef99-4943-9bb9-d02caeba56dd-row-1":{"type":"row","settings":{"image":"shopify:\/\/shop_images\/A_staggering.jpg","caption":"A staggering","heading":"62%","text":"<p>of U.S. dog owners find themselves throwing out and replacing their pet's bed every 6 months to a year.<\/p>","button_label":"","button_link":""}},"template--16338467553431__5b8e79d4-ef99-4943-9bb9-d02caeba56dd-row-2":{"type":"row","settings":{"image":"shopify:\/\/shop_images\/jamie-street-SrgELjlFlY0-unsplash.jpg","caption":"Contributing to an astonishing","heading":"637 Million","text":"<p>pounds of non-biodegradable petroleum based waste ending up in landfills every year.<\/p>","button_label":"","button_link":""}}},"block_order":["template--16338467553431__5b8e79d4-ef99-4943-9bb9-d02caeba56dd-row-1","template--16338467553431__5b8e79d4-ef99-4943-9bb9-d02caeba56dd-row-2"],"custom_css":["@media screen and (min-width: 750px) {.image-with-text__media--medium {height: auto; } .image-with-text__media--medium img {position: unset; }}"],"settings":{"image_height":"medium","desktop_image_width":"large","heading_size":"h1","text_style":"body","button_style":"secondary","desktop_content_position":"middle","desktop_content_alignment":"left","image_layout":"alternate-left","section_color_scheme":"background-1","row_color_scheme":"background-2","mobile_content_alignment":"left","padding_top":36,"padding_bottom":36}},"cb71f178-40e5-4ebf-b27b-2def26355cde":{"type":"image-banner","blocks":{"template--16338467553431__cb71f178-40e5-4ebf-b27b-2def26355cde-heading-1":{"type":"heading","settings":{"heading":"Single use foam now means up to two millennia of landfill legacy and environmental strain.","heading_size":"h0"}}},"block_order":["template--16338467553431__cb71f178-40e5-4ebf-b27b-2def26355cde-heading-1"],"custom_css":[".banner__box {width: 100%;}",".banner__heading {font-size: 58px;}","@media (max-width: 749px) {.banner__heading {font-size: 32px; } .banner__media {display: none; }}"],"settings":{"image":"shopify:\/\/shop_images\/Group_1_7b3e1a1a-91b1-458f-a95a-ece1fbcf37b6.jpg","image_overlay_opacity":0,"image_height":"adapt","desktop_content_position":"middle-center","show_text_box":true,"desktop_content_alignment":"center","color_scheme":"inverse","image_behavior":"none","mobile_content_alignment":"center","stack_images_on_mobile":true,"show_text_below":true}},"ad5e6a0c-c347-4ecc-8654-d0fba20bdfaa":{"type":"image-banner","blocks":{"a6066a79-96ab-4bda-a238-0a27792a94b4":{"type":"text","settings":{"text":"Our Mission","text_style":"body"}},"9bda0660-9a05-4281-a381-1da6bfd604d7":{"type":"heading","settings":{"heading":"Slash 10 million lbs of landfill-bound foam in 5 years, while empowering pet owners with sustainable, innovative solutions.","heading_size":"h2"}}},"block_order":["a6066a79-96ab-4bda-a238-0a27792a94b4","9bda0660-9a05-4281-a381-1da6bfd604d7"],"custom_css":[".banner__box {width: 100%;}",".banner__heading {font-size: 58px;}","@media (max-width: 749px) {.banner__heading {font-size: 32px; }}"],"settings":{"image":"shopify:\/\/shop_images\/banner-2.jpg","image_overlay_opacity":0,"image_height":"adapt","desktop_content_position":"middle-center","show_text_box":true,"desktop_content_alignment":"center","color_scheme":"inverse","image_behavior":"none","mobile_content_alignment":"center","stack_images_on_mobile":true,"show_text_below":true}},"077378a9-dd11-405f-948c-d6b4c4af457b":{"type":"grid-image-content","settings":{"image_large":"shopify:\/\/shop_images\/Kids_dogs_and_I.jpg","image_small":"shopify:\/\/shop_images\/Jax_Laying_on_Bed_1.jpg","text":"<h2>Join us in preventing pet beds from ever ending up in landfills.<\/h2><p>—Stevie Hatch, Founder<\/p>"}},"907ac96a-3936-43df-bbb2-6c3b63d2db98":{"type":"collection-list","blocks":{"template--16338467553431__907ac96a-3936-43df-bbb2-6c3b63d2db98-featured_collection-2":{"type":"featured_collection","settings":{"collection":"shop-beds"}},"template--16338467553431__907ac96a-3936-43df-bbb2-6c3b63d2db98-featured_collection-3":{"type":"featured_collection","settings":{"collection":"shop-ecocovers"}}},"block_order":["template--16338467553431__907ac96a-3936-43df-bbb2-6c3b63d2db98-featured_collection-2","template--16338467553431__907ac96a-3936-43df-bbb2-6c3b63d2db98-featured_collection-3"],"settings":{"title":"","heading_size":"h1","image_ratio":"square","columns_desktop":2,"color_scheme":"scheme-ce73379c-0811-47c6-a578-1a0709ed5138","show_view_all":false,"columns_mobile":"1","swipe_on_mobile":false,"padding_top":80,"padding_bottom":80}}},"order":["main","f35921b4-bf18-4231-90ab-58659fa15afb","5b8e79d4-ef99-4943-9bb9-d02caeba56dd","cb71f178-40e5-4ebf-b27b-2def26355cde","ad5e6a0c-c347-4ecc-8654-d0fba20bdfaa","077378a9-dd11-405f-948c-d6b4c4af457b","907ac96a-3936-43df-bbb2-6c3b63d2db98"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 28
+      }
+    },
+    "f35921b4-bf18-4231-90ab-58659fa15afb": {
+      "type": "image-banner",
+      "blocks": {
+        "template--16338467553431__f35921b4-bf18-4231-90ab-58659fa15afb-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "SUSTAINABILITY MISSION",
+            "text_style": "body"
+          }
+        },
+        "template--16338467553431__f35921b4-bf18-4231-90ab-58659fa15afb-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "In unity, there’s power to transform",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--16338467553431__f35921b4-bf18-4231-90ab-58659fa15afb-text-1",
+        "template--16338467553431__f35921b4-bf18-4231-90ab-58659fa15afb-heading-1"
+      ],
+      "custom_css": [
+        ".banner__content.banner__content--middle-center {align-items: flex-end;}"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/birchwood_hero_6aab9269-f93c-4668-bea5-cb468d8d843b.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "inverse",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "5b8e79d4-ef99-4943-9bb9-d02caeba56dd": {
+      "type": "multirow",
+      "blocks": {
+        "template--16338467553431__5b8e79d4-ef99-4943-9bb9-d02caeba56dd-row-1": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/A_staggering.jpg",
+            "caption": "A staggering",
+            "heading": "62%",
+            "text": "<p>of U.S. dog owners find themselves throwing out and replacing their pet's bed every 6 months to a year.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "template--16338467553431__5b8e79d4-ef99-4943-9bb9-d02caeba56dd-row-2": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/jamie-street-SrgELjlFlY0-unsplash.jpg",
+            "caption": "Contributing to an astonishing",
+            "heading": "637 Million",
+            "text": "<p>pounds of non-biodegradable petroleum based waste ending up in landfills every year.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16338467553431__5b8e79d4-ef99-4943-9bb9-d02caeba56dd-row-1",
+        "template--16338467553431__5b8e79d4-ef99-4943-9bb9-d02caeba56dd-row-2"
+      ],
+      "custom_css": [
+        "@media screen and (min-width: 750px) {.image-with-text__media--medium {height: auto; } .image-with-text__media--medium img {position: unset; }}"
+      ],
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "large",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "background-1",
+        "row_color_scheme": "background-2",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "cb71f178-40e5-4ebf-b27b-2def26355cde": {
+      "type": "image-banner",
+      "blocks": {
+        "template--16338467553431__cb71f178-40e5-4ebf-b27b-2def26355cde-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Single use foam now means up to two millennia of landfill legacy and environmental strain.",
+            "heading_size": "h0"
+          }
+        }
+      },
+      "block_order": [
+        "template--16338467553431__cb71f178-40e5-4ebf-b27b-2def26355cde-heading-1"
+      ],
+      "custom_css": [
+        ".banner__box {width: 100%;}",
+        ".banner__heading {font-size: 58px;}",
+        "@media (max-width: 749px) {.banner__heading {font-size: 32px; } .banner__media {display: none; }}"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Group_1_7b3e1a1a-91b1-458f-a95a-ece1fbcf37b6.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "inverse",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "ad5e6a0c-c347-4ecc-8654-d0fba20bdfaa": {
+      "type": "image-banner",
+      "blocks": {
+        "a6066a79-96ab-4bda-a238-0a27792a94b4": {
+          "type": "text",
+          "settings": {
+            "text": "Our Mission",
+            "text_style": "body"
+          }
+        },
+        "9bda0660-9a05-4281-a381-1da6bfd604d7": {
+          "type": "heading",
+          "settings": {
+            "heading": "Slash 10 million lbs of landfill-bound foam in 5 years, while empowering pet owners with sustainable, innovative solutions.",
+            "heading_size": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "a6066a79-96ab-4bda-a238-0a27792a94b4",
+        "9bda0660-9a05-4281-a381-1da6bfd604d7"
+      ],
+      "custom_css": [
+        ".banner__box {width: 100%;}",
+        ".banner__heading {font-size: 58px;}",
+        "@media (max-width: 749px) {.banner__heading {font-size: 32px; }}"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/banner-2.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "inverse",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "077378a9-dd11-405f-948c-d6b4c4af457b": {
+      "type": "grid-image-content",
+      "settings": {
+        "image_large": "shopify://shop_images/Kids_dogs_and_I.jpg",
+        "image_small": "shopify://shop_images/Jax_Laying_on_Bed_1.jpg",
+        "text": "<h2>Join us in preventing pet beds from ever ending up in landfills.</h2><p>—Stevie Hatch, Founder</p>"
+      }
+    },
+    "907ac96a-3936-43df-bbb2-6c3b63d2db98": {
+      "type": "collection-list",
+      "blocks": {
+        "template--16338467553431__907ac96a-3936-43df-bbb2-6c3b63d2db98-featured_collection-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "orthopedic-memory-foam-dog-beds"
+          }
+        },
+        "template--16338467553431__907ac96a-3936-43df-bbb2-6c3b63d2db98-featured_collection-3": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "shop-ecocovers"
+          }
+        }
+      },
+      "block_order": [
+        "template--16338467553431__907ac96a-3936-43df-bbb2-6c3b63d2db98-featured_collection-2",
+        "template--16338467553431__907ac96a-3936-43df-bbb2-6c3b63d2db98-featured_collection-3"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 2,
+        "color_scheme": "scheme-ce73379c-0811-47c6-a578-1a0709ed5138",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 80,
+        "padding_bottom": 80
+      }
+    }
+  },
+  "order": [
+    "main",
+    "f35921b4-bf18-4231-90ab-58659fa15afb",
+    "5b8e79d4-ef99-4943-9bb9-d02caeba56dd",
+    "cb71f178-40e5-4ebf-b27b-2def26355cde",
+    "ad5e6a0c-c347-4ecc-8654-d0fba20bdfaa",
+    "077378a9-dd11-405f-948c-d6b4c4af457b",
+    "907ac96a-3936-43df-bbb2-6c3b63d2db98"
+  ]
+}
