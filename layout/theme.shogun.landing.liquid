@@ -363,7 +363,7 @@ This file can be re-written at any time.
         recipientFormCollapsed: `{{ 'recipient.form.collapsed' | t }}`,
       };
     </script>
-<script src="{{%20'predictive-search.js'%20|%20asset_url%20}}" defer></script>
+<script src="{{ renamed_variable_20.predictive-search.js['20'] }}" defer></script>
     <style type="text/css">
       body, html {
         width: 100% !important;
@@ -373,3 +373,13 @@ This file can be re-written at any time.
     
   </body>
 </html>
+{% comment %}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: "{{%20'predictive-search.js'%20|%20asset_url%20}}"
+  to: "{{ renamed_variable_20.predictive-search.js['20'] }}"
+  position: 21031..21083
+{% endcomment %}
